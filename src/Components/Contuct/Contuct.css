@@ -1,0 +1,16 @@
+.contuct{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.contuct h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    color: white;
+}

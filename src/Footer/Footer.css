@@ -1,0 +1,72 @@
+.footer__item {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    padding: 20px;
+}
+
+.footer__item div ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.footer__item div ul li {
+    line-height: 49px;
+    font-size: 28px;
+    font-family: initial;
+    text-shadow: 9px 6px 4px #00ffb9;
+}
+
+.footer__item div ul li:hover {
+    background-color: #d70b0b;
+    transition: all .1s ease-in;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.footer__item div ul li a {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+@media (min-width: 208px) and (max-width: 400px) {
+    .footer__item div ul li {
+        line-height: 39px;
+        font-size: 18px;
+        font-family: initial;
+        text-shadow: 9px 6px 4px #00ffb9;
+    }
+
+    .footer__item div {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .footer__item div ul li {
+        line-height: 39px;
+        font-size: 21px;
+        font-family: initial;
+        text-shadow: 9px 6px 4px #00ffb9;
+    }
+
+    .footer__item div {
+        margin-bottom: 20px;
+    }
+}
+
+.Coppy__right {
+    color: red;
+    padding: 17px 0px;
+    background-color: #160096;
+    text-align: center;
+}
+.Coppy__right h6{
+    font-size: 20px;
+}

@@ -1,0 +1,132 @@
+.more-details {
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(45deg, #8e46ff, #ff3434);
+    z-index: -1;
+    padding-bottom: 10px;
+
+}
+
+.more-details h1 {
+    color: aliceblue;
+    background-image: linear-gradient(6deg, black, transparent);
+    padding: 5px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 14px 7px 4px black;
+    padding: 10px 0px;
+    font-style: italic;
+}
+
+.more-details h1:hover {
+    background-image: linear-gradient(60deg, black, transparent);
+    transition: all .5s ease-in-out;
+}
+
+@media (min-width: 208px) and (max-width: 628px) {
+    .more-details {
+        top: 90%;
+        z-index: -1;
+        width: 100%;
+    }
+}
+
+.my-project {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    display: flex;
+}
+
+@media (min-width: 208px) and (max-width: 400px) {
+    .my-project {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        flex-wrap: wrap;
+        grid-gap: 1rem;
+        display: flex;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media (min-width: 208px) and (max-width: 1112px) {
+    .Animate {
+        animation: none;
+    }
+}
+
+/* slider Down styl */
+.profine__card {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 19px;
+}
+
+.detles-card {
+    width: 850px;
+    height: 300px;
+    background-image: linear-gradient(9deg, black, #5c23238c);
+    margin: 10px auto;
+    text-align: center;
+}
+
+.detles-card img {
+    height: 195px;
+    width: 161px;
+    border-radius: 50%;
+}
+
+.detles-card h2,
+h6,
+p {
+    color: white;
+    font-family: auto;
+}
+
+.detles-card p {
+    background-image: linear-gradient(199deg, black, #ff2a2a);
+    padding: 10px;
+    font-family: monospace;
+    font-style: italic;
+}
+
+.footer p {
+    color: black;
+}
+
+/* Hove Effect */
+.detles__hover {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 208px) and (max-width: 1112px) {
+    .detles__hover {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        align-items: inherit;
+        justify-content: center;
+    }
+}
+
+.Up-ImG-St {
+    text-align: center;
+    background-image: linear-gradient(45deg, black, #6b4444);
+    padding: 10px 0px;
+    color: white;
+    text-shadow: 1px 4px 3px grey;
+    font-family: inherit;
+}
+.Total-Futter{
+    margin-top: 22px;
+}

@@ -1,0 +1,84 @@
+.outer {
+    width: 383px;
+    height: 246px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color: #290433;
+    margin: 10px;
+    transform: translate(-50%, -50%);
+}
+.outer span img{
+    width: 273px;
+    height: 205px;
+    border: 2px solid rgb(148 255 0);
+    padding: 5px;
+}
+.outer h5{
+    text-align: center;
+    color: white;
+    font-family: inherit;
+    font-style: italic;
+}
+
+@media (min-width: 300px) and (max-width: 1112px) {
+    .outer {
+        width: 314px;
+        height: 246px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        background-color: tomato;
+        margin: 10px;
+        transform: translate(-53%, -50%);
+    }
+}
+@media (min-width: 208px) and (max-width: 300px) {
+    .outer {
+        width: 253px;
+        height: 246px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        background-color: tomato;
+        margin: 10px;
+        transform: translate(-54%, -50%);
+    }
+}
+
+.one,
+.two {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.one div,
+.two div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outer .one {
+    background-image: linear-gradient(45deg, #004942, #3ec04c);
+    transform: scale(1);
+    transition: all 2s ease;
+}
+
+.outer .two {
+    background-image: linear-gradient(45deg, #ce05af, #000cee);
+    transform: scale(0);
+    transition: all 2s ease;
+}
+
+.outer:hover .one {
+    transform: scale(0);
+}
+
+.outer:hover .two {
+    transform: scale(1);
+}
+
+.Hover__data {}
